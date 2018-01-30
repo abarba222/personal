@@ -1,0 +1,359 @@
+<html>
+
+  <head>
+
+    <title>jQuery</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style type="text/css">
+
+      body{
+        margin: 0px;
+      }
+
+      .main-container{
+        background-color: rgb(245,245,245);
+      }
+
+      .header-content{
+        height: 100px;
+        padding: 15px 2% 15px 2%;
+      }
+
+      .personal-image{
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        float: left;
+      }
+
+      .header-info{
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .name{
+        margin: 10px 0px 0px 0px;
+        font-size: 36px;
+      }
+
+
+      .title{
+        font-size: 16px;
+      }
+
+      .body-container{
+        background-image: url(mountain-background.jpeg);
+        background-size: cover;
+        padding-bottom: 30px;
+      }
+
+      .body{
+        padding: 10px 0px 10px 0px;
+        margin: 30px 2% 0px 2%;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: rgba(250,250,250,0.8);
+      }
+
+      .label-container{
+        text-align: center;
+        border-top: 3px solid black;
+        padding-top: 30px;
+      }
+
+      .labels{
+        padding: 20px;
+        font-weight: bold;
+      }
+
+      .labels:hover{
+        text-decoration: underline;
+      }
+
+      .about-info{
+        padding: 20px;
+      }
+
+      #about-header{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 30px;
+        display: none;
+      }
+
+      .resume-info{
+        padding:20px;
+      }
+
+      #resume-header{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 30px;
+        display: none;
+      }
+
+      .project-info{
+        padding: 20px;
+        display: none;
+      }
+
+      #project-header{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 30px;
+        display: none;
+      }
+
+      .project-box-left{
+        display: inline-block;
+        margin: 0px 12.5% 0px 12.5%;
+      }
+
+      .project-box-right{
+        display: inline-block;
+        margin: 0px 12.5% 0px 13%;
+      }
+
+      #project-box{
+        display: block;
+      }
+
+      #box-headers{
+        text-align: center;
+      }
+
+      .contact-info{
+        padding: 20px;
+        display: block;
+      }
+
+      #contact-header{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 32px;
+        display: block;
+      }
+
+      .content-message{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        padding-bottom:30px;
+      }
+
+      .personal-info{
+        display: inline-block;
+        float: right;
+        width:49%;
+      }
+
+      #phone-label{
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      #email-label{
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      #content-label{
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      #contact-submit{
+        margin-top: 20px;
+        text-align: center;
+      }
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+
+
+
+      <div class="header-content" id="my-header-content">
+
+        <img src="FormalPic.jpg" class="personal-image"></img>
+
+        <div class="header-info">
+          <h1 class="name">Anthony Barba</h1>
+          <h2 class="title">Web Developer/Marketing Specialist</h2>
+        </div>
+
+      </div>
+
+      <div class="body-container">
+
+        <div class="label-container" id="my-label-container">
+          <label class="labels" id="about">About</label>
+          <label class="labels" id="resume">Resume</label>
+          <label class="labels" id="projects">Projects</label>
+          <label class="labels" id="contact">Contact</label>
+        </div>
+
+        <div class="body">
+
+          <div class="about-info">
+            <h2 id="about-header">About</h2>
+            <p class="about-content">The design and development of an application is very important to me and I take great pride in creating not only well functioning but intriguingly designed applications. I'm an innovative Web Development/Marketing professional skilled at analytical problem solving with the ability to quickly learn new technologies. I have excellent communication and client-relations skills, strong organizational skills and work well under tight deadlines.</p>
+          </div>
+
+          <div class="resume-info">
+            <h2 id="resume-header">Resume</h2>
+            <p><strong>Purpose:</strong> To obtain a challenging position where my knowledge, creativity, and experience can be effectively utilized.<br>
+            <br><strong>Qualifications:</strong><br>Innovative Web Development / Programming / Marketing Professional.  Skilled analytical problem solver with the ability to quickly learn new technologies.  Excellent communication and client-relations skills.  Strong organizational skills.  Work well under tight deadlines.<br>
+            <br><strong>Technical Skills:</strong><br>
+            HTML5, CSS3, SASS, Javascript, Javascript libraries & frameworks (jQuery, Underscore.js, Backbone, Ember, Angular) AJAX, JSON data, Handlebars.js, Node.js, MongoDB, WordPress, PHP, MySQL, Swift 3, Xcode, Git, Gulp, SaleForce, and Basic Adobe Photoshop.<br>
+
+            <br><strong>Other Skills:</strong><br>
+            Microsoft Office Word, Excel, PowerPoint; Mac and PC operating systems; social media (Facebook, Twitter, LinkedIn, Instagram, YouTube, HootSuite, etc.)<br>
+
+
+            <br><strong>Professional Experience (Technical):</strong>
+            <ul>
+              <li><i><strong>Marketing Operations Specialist & Jr. Web Developer</strong>, Aramis Interactive</i> (August 2016-Present): Handle the design, maintenance and updates for our consumer facing publisher sites using HTML, CSS, jQuery, JavaScript, PHP, XML and JSON. Build incoming campaigns that will display on our sites and make decisions on creatives to use for optimization purposes using Adobe Photoshop, HasOffers and LeadConduit. Interact with clients, partners and team members using SalesForce, Trello, Slack, HipChat and Basecamp to stay organized and up to date when implementing new builds to our sites or changing campaign information.
+              <li><i><strong>Web Developer</strong>, Lightcast.com/Cross Media Group</i> (January 2016 – July 2016):  Updated and maintained website and live streaming software using PHP, AJAX, JavaScript, and MySQL and designed custom applications for clients’ WordPress sites.
+              <li><i><strong>Programmer/Entrepreneur</strong></i> (August 2015- January 2016):  Designed computer games that are in prototype stages and conducted user surveys for entertainment and quality-assurance purposes; started a small business to advance this initiative.
+            </ul>
+
+            <strong>Professional Experience (Marketing):</strong>
+            <ul>
+              <li><i><strong>Regional Sales Assistant</strong>, WYNIT Distribution, LLC</i> (September 2014-May 2015):  Processed sales with their west coast region and handled customer relations.
+              <li><i><strong>Programs & Marketing Assistant</strong>, Cause-USA (Non-profit)</i> (August 2013-July 2014):  Updated social-media platforms and websites with relevant news articles and information; conducted potential-donor research and inquiries via phone, mail, email; prepared spreadsheets with program metrics; created PowerPoint presentations; re-designed flyers and marketing material to make more appealing.
+            </ul>
+
+            <strong>Education and Training:</strong>
+            <ul>
+              <li>BA in Communications & Media Studies (May 2013), Furman University, Greenville SC (GPA 3.1/Major GPA 3.3)
+              <li>Front-End Engineering Diploma (July 2015) The Iron Yard, Greenville, SC
+              <li>Web Design Certificate Program (September 2013- January 2014) Northern Virginia Community College, Arlington, VA: Introduction to Web Design, CSS for Mobile Layout, Dreamweaver for Fast Web Design, Photoshop
+            </ul>
+
+          </p>
+
+          </div>
+
+          <div class="project-info">
+            <h2 id="project-header">Projects</h2>
+            <div class="project-content">
+              <div class="project-box-left">
+              <div id="project-box" class="syf-content">
+                <h3 id="box-headers" class="syf-header">Share Your Freebies</h3>
+                <a href="http://shareyourfreebies.com" target="_blank"><input type="image" src="syf-image.jpeg" style="width:250px; height:250px; border-radius:10px; border: 2px solid black;"></input></a>
+              </div>
+              <div id="project-box" class="top-sweeps-content">
+                <h3 id="box-headers" class="top-sweeps-header">Top Sweeps</h3>
+                <a href="http://get.topsweeps.com/" target="_blank"><input type="image" src="topsweeps-image.jpg" style="width:250px; height:250px; border-radius:10px; border: 2px solid black;"></input></a>
+              </div>
+              </div>
+              <div class="project-box-right">
+              <div id="project-box" class="lightcast-content">
+                <h3 id="box-headers" class="lightcast-header">Lightcast.com</h3>
+                <a href="https://www.lightcast.com/" target="_blank"><input type="image" src="lightcast-image.png" style="width:250px; height:250px; border-radius:10px; border: 2px solid black;"></input></a>
+              </div>
+              <div id="project-box" class="drunken-content">
+                <h3 id="box-headers" class="drunken-header">Drunken Diplomacy</h3>
+                <a href="https://abarba222.github.io/drunken_diplomacy/" target="_blank"><input type="image" src="drunken-image.jpg" style="width:250px; height:250px; border-radius:10px; border: 2px solid black;"></input></a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <h2 id="contact-header">Let's Connect!</h2>
+              <p class="content-message">For any buisness or general inquiries feel free to leave me a message and I'll be sure to get back to you as soon as possible!</p>
+
+                <label for="email" id="email-label"><strong>Email:</strong> <a href="mailto:abarba222@gmail.com">abarba222@gmail.com</a></label>
+
+                <label for="name" id="phone-label"><strong>Phone:</strong> Feel free to email me if you'd like to setup a phone call.</label>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+
+    $('#my-label-container label').hover(function() {
+      $(this).stop().animate({ fontSize : '20px' });
+      },
+      function() {
+        $(this).stop().animate({ fontSize : '16px' });
+      });
+
+      $("#about").click(function() {
+        $("#about-header").css("display", "block");
+        $(".about-info").css({
+            "display":"block",
+            "height": "330px",
+            "font-size": "18px"
+          });
+        $(".resume-info").css("display", "none");
+        $(".project-info").css("display", "none");
+        $(".contact-info").css("display", "none");
+      });
+
+      $("#resume").click(function() {
+        $("#resume-header").css("display", "block");
+        $(".resume-info").css({
+            "display":"block"
+          });
+        $(".about-info").css("display", "none");
+        $(".project-info").css("display", "none");
+        $(".contact-info").css("display", "none");
+      });
+
+      $("#projects").click(function() {
+        $("#project-header").css("display", "block");
+        $(".project-info").css("display", "block");
+        $(".about-info").css("display", "none");
+        $(".resume-info").css("display", "none");
+        $(".contact-info").css("display", "none");
+      });
+
+
+      $("#contact").click(function() {
+        $("#contact-header").css("display", "block");
+        $(".contact-info").css({
+            "display":"block",
+            "height": "330px"
+          });
+        $(".about-info").css("display", "none");
+        $(".resume-info").css("display", "none");
+        $(".project-info").css("display", "none");
+      });
+
+      $("#my-header-content").click(function() {
+        $("#about-header").css("display", "none");
+        $(".about-info").css({
+            "display":"block",
+            "height": "auto",
+            "font-size":"16px"
+          });
+        $("#resume-header").css("display", "none");
+        $(".resume-info").css("display", "block");
+        $(".project-info").css("display", "none");
+        $(".contact-info").css("display", "block");
+      });
+
+
+    </script>
+
+  </body>
+
+</html>
